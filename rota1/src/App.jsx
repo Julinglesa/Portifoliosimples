@@ -1,5 +1,5 @@
-import React from 'react'
-import { CreateGlobalStyle } from "styled-components"
+import React from "react"
+import {createGlobalStyle} from "styled-components"
 import Navegação from "./Components/Navegação.jsx"
 
 const GlobalStyle = createGlobalStyle`

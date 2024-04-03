@@ -6,8 +6,8 @@ function Sobre(){
 
         <>
 
-<h2>E a Vida pode ser Feliz, mesmo por instantes ,mesmo por um Triz</h2>
-<p>...</p>
+<h1>E a Vida pode ser Feliz, mesmo por instantes ,mesmo por um Triz</h2>
+<h2>"</h2>
         </>
 
 

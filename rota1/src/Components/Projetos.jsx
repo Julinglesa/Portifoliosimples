@@ -8,7 +8,7 @@ function Projetos(){
 <div>
     <img src="" alt=""/>
     <h2>titulo</h2>
-    <p>lorem</p>
+    <p>lorem???</p>
 </div>
 
 
