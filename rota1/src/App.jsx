@@ -1,10 +1,7 @@
-import React from "react"
-import {createGlobalStyle} from "Styled-Components"
+import {useState}  from "react"
+import {createGlobalStyle} from "styled-Components"
 import Navegação from "./Components/Navagação.jsx"
-
-
-
-const GlobalStyle = createGlobalStyle`
+const  GlobalStyle = createGlobalStyle`
 
 *{
 margin:0;

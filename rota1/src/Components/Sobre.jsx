@@ -1,5 +1,5 @@
 import React from "react"
-import Style from "Styled-components"
+import Style from "styled-components"
 import Vnw from "./ImagensPort/vainaweb.png"
 import linkedin from "./ImagensPort/linkedin.png"
 import Instagram from "./ImagensPort/instagram.png"
@@ -14,8 +14,8 @@ function Sobre() {
 
             <S.MinhasRedes>
 
-                <p> <a href="https://www.instagram.com/lojareepdex/" target="_blanck"><S.redes src={inst} alt="instagram" /></a></p>
-                <p> <a href="https://www.linkedin.com/in/juliana-portella-b29361214/" target="_blanck"><S.redes src={link} alt="linkedin" /></a></p>
+                <p> <a href="https://www.instagram.com/lojareepdex/" target="_blanck"><S.Redes src={Inst} alt="instagram" /></a></p>
+                <p> <a href="https://www.linkedin.com/in/juliana-portella-b29361214/" target="_blanck"><S.Redes src={linke} alt="linkedin"/></a></p>
             </S.MinhasRedes>
 
             <S.Interesses>
