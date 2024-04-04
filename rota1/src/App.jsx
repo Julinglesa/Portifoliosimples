@@ -1,5 +1,5 @@
 import React from "react"
-import {createGlobalStyle} from "styled-components"
+import {createGlobalStyle} from "Styled-Components"
 import Navegação from "./Components/Navagação.jsx"
 
 

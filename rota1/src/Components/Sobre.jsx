@@ -1,8 +1,9 @@
 import React from "react"
-import Styled from "styled-components"
+import Style from "Styled-components"
+import Vnw from "./ImagensPort/vainaweb.png"
 import linkedin from "./ImagensPort/linkedin.png"
 import Instagram from "./ImagensPort/instagram.png"
-import *as S from "./Style.jsx"
+import * as S from "./Style.jsx"
 
 
 
