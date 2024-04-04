@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../assets/kurenai/kurenai.jpg"
+import logo from "../../src/assets/Kurenai.jpg"
 import Inicio from "./Inicio.jsx"
 import Sobre from "./Sobre.jsx"
 import Projetos from "./Projetos.jsx"

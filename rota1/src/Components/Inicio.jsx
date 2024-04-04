@@ -1,22 +1,31 @@
 import React from "react"
-import logo from "../../src/assets/kurenai/kurenai.jpg"
-import Perfil from "./ImagensPort/Instagram.png"
-import Perfil from "./ImagensPort/linkedin.png"
+import logo from "../../src/assets/kurenai.jpg"
+import Instagram from "./ImagensPort/lnstagram.png"
+import linkedin from "./ImagensPort/linkedin.png"
 import * as S from "./Style.jsx"
 
 
-function Inicio(){
-    return(
-<S.Inicio>
+function Inicio() {
+    return (
 
-<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Ky8awpgrnNhGkmqr9YRqAZExvZI5rQtjfA&usqp=CAU"
-alt="kurenai"/>
+        <S.Inicio>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Ky8awpgrnNhGkmqr9YRqAZExvZI5rQtjfA&usqp=CAU"
+                alt="kurenai" />
 
-</S.Inicio>
-    
- )
+            <h2>Olá, 🚀</h2>
+            <p> Sou Juliana Empreendedora e criadora da marca e loja Reepdex, do interior de SP
+                tenho outros cursos, mas nessa jornada da vida de oportunidades entrei
+                no mundo da Tecnologia, Atualmente em reta final de ADs , Vai na wev (Front-end)
+                e Cybersegurança; na vida estamos em Constante aprendizado</p>
+
+            <S.RedesSociais>
+                <img src={Instagram} alt="Instagram" />
+                <img src={Linkedin} alt="linkedin" />
+            </S.RedesSociais>
+
+        </S.Inicio>
+
+    )
 }
-
-
 
 export default Inicio;
