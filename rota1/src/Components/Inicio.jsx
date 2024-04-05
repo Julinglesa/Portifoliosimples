@@ -1,13 +1,15 @@
 import React from "react"
-import logo from "../../assets/kurenai.jpg"
+import Foto  from "../../assets/kurenai.jpg"
+import Instagram from "./ImagensPort/instagram.png"
+import Linkedin from "./ImagensPort/linkedin.png"
 import * as S from "./Style.jsx"
-//import styled from "styled-components"
+
 
 function Inicio() {
     return (
 
-        <S.ConteudoMain>
-            <S.Apresentação>
+        <S.Inicio>
+
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Ky8awpgrnNhGkmqr9YRqAZExvZI5rQtjfA&usqp=CAU"
                 alt="kurenai" />
 
@@ -17,11 +19,16 @@ function Inicio() {
                 no mundo da Tecnologia, Atualmente em reta final de ADs , Vai na wev (Front-end)
                 e Cybersegurança; na vida estamos em Constante aprendizado</p>
 
-            </S.Apresentação>
-            </S.ConteudoMain>
-                
+            <S.RedesSociais>
+                <img src={Instagram} alt="" />
+                <img src={Linkedin} alt="" />
+
+
+            </S.RedesSociais>
+        </S.Inicio>
+
 
     )
 }
 
-export default Inicio;
+export default Inicio

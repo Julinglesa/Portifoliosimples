@@ -1,32 +1,57 @@
 import React from "react"
-import Style from "styled-components"
+import *as S from "./Style.jsx"
 import Vnw from "./ImagensPort/vainaweb.png"
-import linkedin from "./ImagensPort/linkedin.png"
-import Instagram from "./ImagensPort/instagram.png"
-import * as S from "./Style.jsx"
-
-
+import Css from "./ImagensPort/css.png"
+import Html from "./ImagensPort/html.png"
+import Js from "./ImagensPort/js.png"
 
 function Sobre() {
     return (
-        <S.SobreMim>
+
+        <S.Sobre>
+
+            <S.Estudos>
+
+                <h2>Cursos</h2>
+                <div>
+                    <h3>Desenvolvimento Front -End</h3>
+                    <img src={Vnw} alt="cursando" />
+
+                </div>
+            </S.Estudos>
 
 
-            <S.MinhasRedes>
+            <S.Habilidades>
+                <h2>Praticas e Habilidades</h2>
 
-                <p> <a href="https://www.instagram.com/lojareepdex/" target="_blanck"><S.Redes src={Inst} alt="instagram" /></a></p>
-                <p> <a href="https://www.linkedin.com/in/juliana-portella-b29361214/" target="_blanck"><S.Redes src={linke} alt="linkedin"/></a></p>
-            </S.MinhasRedes>
+                <div>
+                    <img src={Css} alt="" />
+                    <h3>Css ; buscando me melhorar</h3>
+                </div>
 
-            <S.Interesses>
-                <h2>Interesses</h2>
-                <p> Desenvolvimento Front -End (HTML, CSS, Javascript) </p>
-                <p> Habilidades com C#, C++, SQlserver </p>
-            </S.Interesses>
+                <div>
 
-        </S.SobreMim>
+                    <img src={Html} alt="" />
+                    <h3>Html</h3>
+                </div>
+
+                <div>
+                    <img src={Js} alt="" />
+                    <h3>Js , buscando melhorar cada vez mais</h3>
+
+                </div>
+
+            </S.Habilidades>
+
+        </S.Sobre>
+
+
 
     )
 }
+
+
+
+
 
 export default Sobre
