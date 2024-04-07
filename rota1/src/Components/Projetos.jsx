@@ -1,29 +1,16 @@
 import React from "react"
 import Reepdex from "./ImagensPort/reepdex.png"
-import Stitch from "./ImagensPort/stitch.jpg"
-import Logodog from "./ImagensPort/logodog.jpg"
-
-function Projetos() {
-    return (
-
-        <S.Section>
-
-            <S.MinhaDiv>
-                <S.Port src={Reepdex} alt="lojareepdex" />
-                <p>Caminho: <a href="https://www.instagram.com/lojareepdex" target="_blank">https://www.instagram.com/lojareepdex</a></p>
-
-                <S.Port src={Stitch} alt="lojaroupa" />
-                <p>Repositorio: <a href="https://github.com/Julinglesa/desafiovainawev2" target="_blanl">https://github.com/Julinglesa/desafiovainawev2</a></p>
-
-                  
-                  <S.Port src={Logodog} alt ="fantastika"/>
-                  <p>Repositorio : <a href="https://github.com/Julinglesa/desafioFantastika" target ="_blank">https://github.com/Julinglesa/desafioFantastika</a></p>
+import Stitch from "./ImagensPort"/stitch.jpg"
+import Logodog from "./ImagensPort/logodog"
+import * a S from "Style.jsx"
 
 
-            </S.MinhaDiv>
-        </S.Section>
+function Projetos(){
+  const desafios = [
+    {imagem: D, titulo: "Reepdex", link: "https://www.instagram.com/lojareepdex/" , descricao: "react, map, styled-components, useState, useEffect, filter"},
+    {imagem: C, titulo: "Stitch", link: "https://github.com/Julinglesa/desafiovainawev2", descricao: "react, styled-components,"},
+    {imagem: A, titulo: "Logodog", link: "https://github.com/Julinglesa/desafioFantastika", descricao: "react, useState"},
+    
 
  )
 }
-
-export default Projetos
